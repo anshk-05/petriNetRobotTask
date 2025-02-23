@@ -1,0 +1,116 @@
+p 165.0 80.0 p0 1 n {Storage is Ready} w
+p 165.0 165.0 p1 0 n {Detail is Ready} w
+p 165.0 255.0 p2 0 n {Lever turned Left} w
+p 165.0 335.0 p3 0 n {Lever turned Right} w
+p 165.0 420.0 p4 0 n {Head turned Left} w
+p 165.0 505.0 p5 0 n {Head turned Right} w
+p 175.0 785.0 p7 0 n {Pole is Down} w
+p 175.0 885.0 p8 0 n {Claw 1 is Open} w
+p 175.0 1170.0 p11 0 n {Claw 2 is Closed} w
+p 165.0 595.0 p6 1 n {Ploe is Up} w
+p 790.0 70.0 p12 0 n {Next to Storage} e
+p 790.0 155.0 p13 0 n {Billet is Delivered} e
+p 790.0 410.0 p16 0 n {Rotate Head Left} e
+p 790.0 495.0 p17 0 n {Rotate head Right} e
+p 800.0 885.0 p19 0 n {Grasp by Claw 1} e
+p 800.0 965.0 p20 0 n {Grasp by Claw 2} e
+p 800.0 1065.0 p21 0 n {Open Claw 1} e
+p 800.0 1170.0 p22 0 n {Open Claw 2} e
+p 520.0 120.0 p24 1 n
+t 520.0 170.0 t0 0 w n
+p 520.0 235.0 p25 0 n
+t 520.0 290.0 t1 0 w n
+p 520.0 355.0 p26 0 n
+t 520.0 420.0 t2 0 w n
+p 520.0 490.0 p27 0 n
+t 520.0 545.0 t3 0 w n
+p 520.0 620.0 p28 0 n
+p 515.0 835.0 p29 0 n
+t 515.0 885.0 t5 0 w n
+p 515.0 945.0 p30 0 n
+t 515.0 995.0 t6 0 w n
+p 515.0 1050.0 p31 0 n
+t 515.0 1100.0 t7 0 w n
+p 515.0 1160.0 p32 0 n
+t 310.0 305.0 t9 0 w n
+t 310.0 385.0 t10 0 w n
+t 315.0 1070.0 t14 0 w n
+t 315.0 1170.0 t15 0 w n
+t 315.0 970.0 t13 0 w n
+t 315.0 885.0 t12 0 w n
+t 310.0 500.0 t11 0 w n
+a 495.0 20.0 n0 1 {Robot Arm}
+p 790.0 590.0 p18 0 n {Move Pole Down} e
+p 800.0 795.0 p23 0 n {Move Pole Up} e
+t 520.0 685.0 t4 0 w n
+p 790.0 245.0 p15 0 n {Rotate Lever Left} e
+p 790.0 325.0 p14 0 n {Rotate Lever Right} e
+t 760.0 710.0 t16 0 w n
+p 175.0 1070.0 p10 0 n {Claw 2 is Open} w
+p 175.0 970.0 p9 0 n {Claw 1 is Closed} w
+t 515.0 1225.0 t8 0 w n
+a 1005.0 985.0 n4 1 {How to opertate the claw when \\narm is down}
+a 1025.0 310.0 n2 1 {When Robot Arm is up this confirgues \\nit to go to storage or table}
+e t8 0.04805701997 63.89053138 p29 0.9869836123 61.20457497 1 n
+e t0 p18 1 n
+e t8 p22 1 n
+e t7 p21 1 n
+e t6 p20 1 n
+e t5 p19 1 n
+e t15 0.2227241649 369.4116945 p23 0.4718759121 199.1004771 1 n
+e t14 0.219877435 313.6000638 p23 0.4770571167 62.64982043 1 n
+e t13 0.1908969814 223.2151429 p23 0.4635166047 30.8058436 1 n
+e t12 0.1323630269 152.8986592 p23 0.4726635229 99.46356117 1 n
+e p11 t15 1 n
+e p10 t14 1 n
+e p9 t13 1 n
+e p8 t12 1 n
+e p7 0.006419809589 223.1815405 t8 0.3655251528 133.7032628 1 n
+e p7 0.005432448325 205.1194774 t7 0.3855946523 116.9316039 1 n
+e p7 0.000869690486 183.0027322 t6 0.4235410396 100.0780945 1 n
+e p7 0.9934115501 169.1449083 t5 0.5101450634 94.19129472 1 n
+e t16 p7 1 n
+e p18 t16 1 n
+e t4 p12 1 n
+e t4 p17 1 n
+e t3 p13 1 n
+e t3 p14 1 n
+e t3 p16 1 n
+e t2 p17 1 n
+e p6 0.998986288 157.0031847 t4 0.4604834336 91.55770037 1 n
+e p6 0.9914515128 93.13431162 t3 0.522269703 89.62595885 1 n
+e p6 0.9868515602 157.5372972 t2 0.5294990424 97.67292358 1 n
+e t11 0.8728199317 103.247276 p18 0.6044182257 318.0251562 1 n
+e t10 0.8053897238 228.7116088 p18 0.6057577274 304.8671842 1 n
+e t9 0.1198677492 65.7951366 p18 0.6089243251 420.7517083 1 n
+e p5 t11 1 n
+e p4 t10 1 n
+e p3 t10 1 n
+e p4 t9 1 n
+e p2 t9 1 n
+e p1 t9 1 n
+e t1 p16 1 n
+e t1 p15 1 n
+e p6 0.984697362 197.9141228 t1 0.5176116437 90.55385138 1 n
+e t4 0.387666528 115.6243919 p24 0.6030356591 102.8007782 1 n
+e p32 t8 1 n
+e t7 p32 1 n
+e p31 t7 1 n
+e t6 p31 1 n
+e p30 t6 1 n
+e t5 p30 1 n
+e p29 t5 1 n
+e p28 t4 1 n
+e t3 p28 1 n
+e p27 t3 1 n
+e t2 p27 1 n
+e p26 t2 1 n
+e t1 p26 1 n
+e p25 t1 1 n
+e t0 p25 1 n
+e p24 t0 1 n
+e p6 0.9872679728 237.7603836 t0 0.5107736792 118.2708755 1 n
+e p0 t0 1 n
+h robotArm
+
+
