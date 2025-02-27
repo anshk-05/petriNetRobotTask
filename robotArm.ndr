@@ -1,111 +1,115 @@
-p 165.0 80.0 p0 1 n {Storage is Ready} w
-p 165.0 165.0 p1 0 n {Detail is Ready} w
-p 165.0 255.0 p2 0 n {Lever turned Left} w
-p 165.0 335.0 p3 0 n {Lever turned Right} w
-p 165.0 420.0 p4 0 n {Head turned Left} w
-p 165.0 505.0 p5 0 n {Head turned Right} w
-p 175.0 785.0 p7 0 n {Pole is Down} w
-p 175.0 885.0 p8 0 n {Claw 1 is Open} w
-p 175.0 1170.0 p11 0 n {Claw 2 is Closed} w
-p 165.0 595.0 p6 1 n {Ploe is Up} w
-p 790.0 70.0 p12 0 n {Next to Storage} e
-p 790.0 155.0 p13 0 n {Billet is Delivered} e
-p 790.0 410.0 p16 0 n {Rotate Head Left} e
-p 790.0 495.0 p17 0 n {Rotate head Right} e
-p 800.0 885.0 p19 0 n {Grasp by Claw 1} e
-p 800.0 965.0 p20 0 n {Grasp by Claw 2} e
-p 800.0 1065.0 p21 0 n {Open Claw 1} e
-p 800.0 1170.0 p22 0 n {Open Claw 2} e
-p 520.0 120.0 p24 1 n
-t 520.0 170.0 t0 0 w n
-p 520.0 235.0 p25 0 n
-t 520.0 290.0 t1 0 w n
-p 520.0 355.0 p26 0 n
-t 520.0 420.0 t2 0 w n
-p 520.0 490.0 p27 0 n
-t 520.0 545.0 t3 0 w n
-p 520.0 620.0 p28 0 n
-p 515.0 835.0 p29 0 n
-t 515.0 885.0 t5 0 w n
-p 515.0 945.0 p30 0 n
-t 515.0 995.0 t6 0 w n
-p 515.0 1050.0 p31 0 n
-t 515.0 1100.0 t7 0 w n
-p 515.0 1160.0 p32 0 n
-t 310.0 305.0 t9 0 w n
-t 310.0 385.0 t10 0 w n
-t 315.0 1070.0 t14 0 w n
-t 315.0 1170.0 t15 0 w n
-t 315.0 970.0 t13 0 w n
-t 315.0 885.0 t12 0 w n
-t 310.0 500.0 t11 0 w n
-a 495.0 20.0 n0 1 {Robot Arm}
-p 790.0 590.0 p18 0 n {Move Pole Down} e
-p 800.0 795.0 p23 0 n {Move Pole Up} e
-t 520.0 685.0 t4 0 w n
-p 790.0 245.0 p15 0 n {Rotate Lever Left} e
-p 790.0 325.0 p14 0 n {Rotate Lever Right} e
-t 760.0 710.0 t16 0 w n
-p 175.0 1070.0 p10 0 n {Claw 2 is Open} w
-p 175.0 970.0 p9 0 n {Claw 1 is Closed} w
-t 515.0 1225.0 t8 0 w n
-p 1360.0 215.0 p35 0 n R1 w
-p 1360.0 295.0 p36 0 n R2 w
-p 1360.0 380.0 p37 0 n R3 w
-p 1360.0 460.0 p38 0 n R4 w
-p 1360.0 535.0 p39 0 n R5 w
-p 1700.0 215.0 p41 0 n S1 e
-p 1700.0 295.0 p42 0 n S2 e
-p 1700.0 455.0 p44 0 n S4 e
-p 1700.0 535.0 p45 0 n S5 e
-p 1700.0 615.0 p46 0 n S6 e
-p 1360.0 700.0 p47 0 n {S ROT} w
-p 1700.0 695.0 p48 0 n ROT e
-p 1535.0 240.0 p49 0 n
-p 1535.0 355.0 p50 0 n
-p 1535.0 485.0 p51 0 n
-t 1535.0 415.0 t18 0 w n
-t 1535.0 550.0 t19 0 w n
-p 1360.0 615.0 p40 0 n R6 w
-p 1360.0 135.0 p33 0 n Next w
-p 1700.0 135.0 p34 0 n {R Ready} e
-t 1535.0 295.0 t17 0 w n
-p 1700.0 380.0 p43 0 n S3 e
-a 990.0 300.0 n2 1 {When Robot Arm is up this confirgues \\nit to go to storage or table}
-a 990.0 995.0 n4 1 {How to opertate the claw when \\narm is down}
-a 1495.0 45.0 n1 1 {Rotary Table Size 6}
-p 2110.0 95.0 p64 0 n
-t 2110.0 150.0 t20 0 w n
-t 2110.0 200.0 t21 0 w n
-p 2110.0 260.0 p65 0 n
-t 2110.0 315.0 t22 0 w n
-t 2110.0 365.0 t23 0 w n
-p 2115.0 425.0 p66 0 n
-t 2115.0 480.0 t24 0 w n
-t 2115.0 530.0 t25 0 w n
-p 2115.0 595.0 p67 0 n
-t 2115.0 650.0 t26 0 w n
-t 2115.0 700.0 t27 0 w n
-p 2115.0 760.0 p68 0 n
-t 2115.0 815.0 t28 0 w n
-t 2115.0 865.0 t29 0 w n
-t 2115.0 980.0 t30 0 w n
-t 2115.0 1035.0 t31 0 w n
-p 1925.0 655.0 p58 0 n {s-x} w
-p 1925.0 395.0 p56 0 n {s+x} w
-p 1925.0 525.0 p57 0 n {s+y} w
-p 1925.0 270.0 p54 0 n Next w
-p 1925.0 790.0 p59 0 n {s-y} w
-p 2290.0 655.0 p62 0 n {-x} e
-p 2290.0 520.0 p61 0 n {+y} e
-p 2285.0 390.0 p60 0 n {+x} e
-p 2280.0 265.0 p55 0 n Ready e
-p 2290.0 795.0 p63 0 n {-y} e
-p 2115.0 925.0 p70 0 n
-t 2360.0 355.0 t32 0 w n
-t 2365.0 490.0 t33 0 w n
-t 2365.0 615.0 t34 0 w n
-t 2360.0 765.0 t35 0 w n
+p 155.0 175.0 p1 0 n {Detail is Ready} w
+p 155.0 265.0 p2 0 n {Lever turned Left} w
+p 155.0 345.0 p3 0 n {Lever turned Right} w
+p 155.0 430.0 p4 0 n {Head turned Left} w
+p 155.0 515.0 p5 0 n {Head turned Right} w
+p 165.0 795.0 p7 0 n {Pole is Down} w
+p 165.0 895.0 p8 0 n {Claw 1 is Open} w
+p 165.0 1180.0 p11 0 n {Claw 2 is Closed} w
+p 155.0 605.0 p6 4 n {Ploe is Up} w
+p 780.0 80.0 p12 0 n {Next to Storage} e
+p 780.0 165.0 p13 0 n {Billet is Delivered} e
+p 780.0 420.0 p16 0 n {Rotate Head Left} e
+p 780.0 505.0 p17 0 n {Rotate head Right} e
+p 790.0 895.0 p19 0 n {Grasp by Claw 1} e
+p 790.0 975.0 p20 0 n {Grasp by Claw 2} e
+p 790.0 1075.0 p21 0 n {Open Claw 1} e
+p 790.0 1180.0 p22 0 n {Open Claw 2} e
+p 510.0 130.0 p24 1 n
+t 510.0 180.0 t0 0 w n
+p 510.0 245.0 p25 0 n
+t 510.0 300.0 t1 0 w n
+p 510.0 365.0 p26 0 n
+t 510.0 430.0 t2 0 w n
+p 510.0 500.0 p27 0 n
+t 510.0 555.0 t3 0 w n
+p 510.0 630.0 p28 0 n
+p 505.0 845.0 p29 0 n
+t 505.0 895.0 t5 0 w n
+p 505.0 955.0 p30 0 n
+t 505.0 1005.0 t6 0 w n
+p 505.0 1060.0 p31 0 n
+t 505.0 1110.0 t7 0 w n
+p 505.0 1170.0 p32 0 n
+t 300.0 315.0 t9 0 w n
+t 300.0 395.0 t10 0 w n
+t 305.0 1080.0 t14 0 w n
+t 305.0 1180.0 t15 0 w n
+t 305.0 980.0 t13 0 w n
+t 305.0 895.0 t12 0 w n
+t 300.0 510.0 t11 0 w n
+a 485.0 30.0 n0 1 {Robot Arm}
+p 780.0 600.0 p18 0 n {Move Pole Down} e
+p 790.0 805.0 p23 0 n {Move Pole Up} e
+t 510.0 695.0 t4 0 w n
+p 780.0 255.0 p15 0 n {Rotate Lever Left} e
+p 780.0 335.0 p14 0 n {Rotate Lever Right} e
+t 750.0 720.0 t16 0 w n
+p 165.0 1080.0 p10 0 n {Claw 2 is Open} w
+p 165.0 980.0 p9 0 n {Claw 1 is Closed} w
+t 505.0 1235.0 t8 0 w n
+p 1350.0 225.0 p35 0 n R1 w
+p 1350.0 305.0 p36 0 n R2 w
+p 1350.0 390.0 p37 0 n R3 w
+p 1350.0 470.0 p38 0 n R4 w
+p 1350.0 545.0 p39 0 n R5 w
+p 1690.0 225.0 p41 0 n S1 e
+p 1690.0 305.0 p42 0 n S2 e
+p 1690.0 465.0 p44 0 n S4 e
+p 1690.0 545.0 p45 0 n S5 e
+p 1690.0 625.0 p46 0 n S6 e
+p 1350.0 710.0 p47 0 n {S ROT} w
+p 1690.0 705.0 p48 0 n ROT e
+p 1525.0 250.0 p49 1 n
+p 1525.0 365.0 p50 0 n
+p 1525.0 495.0 p51 0 n
+t 1525.0 425.0 t18 0 w n
+t 1525.0 560.0 t19 0 w n
+p 1350.0 625.0 p40 0 n R6 w
+p 1350.0 145.0 p33 0 n Next w
+p 1690.0 145.0 p34 0 n {R Ready} e
+t 1525.0 305.0 t17 0 w n
+p 1690.0 390.0 p43 0 n S3 e
+a 980.0 310.0 n2 1 {When Robot Arm is up this confirgues \\nit to go to storage or table}
+a 980.0 1005.0 n4 1 {How to opertate the claw when \\narm is down}
+a 1485.0 55.0 n1 1 {Rotary Table Size 6}
+p 2100.0 105.0 p64 1 n
+t 2100.0 160.0 t20 0 w n
+t 2100.0 210.0 t21 0 w n
+p 2100.0 270.0 p65 0 n
+t 2100.0 325.0 t22 0 w n
+t 2100.0 375.0 t23 0 w n
+p 2105.0 435.0 p66 0 n
+t 2105.0 490.0 t24 0 w n
+t 2105.0 540.0 t25 0 w n
+p 2105.0 605.0 p67 0 n
+t 2105.0 660.0 t26 0 w n
+t 2105.0 710.0 t27 0 w n
+p 2105.0 770.0 p68 0 n
+t 2105.0 825.0 t28 0 w n
+t 2105.0 875.0 t29 0 w n
+t 2105.0 990.0 t30 0 w n
+t 2105.0 1045.0 t31 0 w n
+p 1915.0 665.0 p58 0 n {s-x} w
+p 1915.0 405.0 p56 0 n {s+x} w
+p 1915.0 535.0 p57 0 n {s+y} w
+p 1915.0 280.0 p54 0 n Next w
+p 1915.0 800.0 p59 0 n {s-y} w
+p 2280.0 665.0 p62 0 n {-x} e
+p 2280.0 530.0 p61 0 n {+y} e
+p 2275.0 400.0 p60 0 n {+x} e
+p 2270.0 275.0 p55 0 n Ready e
+p 2280.0 805.0 p63 0 n {-y} e
+p 2105.0 935.0 p70 0 n
+t 2350.0 365.0 t32 0 w n
+t 2355.0 500.0 t33 0 w n
+t 2355.0 625.0 t34 0 w n
+t 2350.0 775.0 t35 0 w n
+t 2315.0 25.0 t36 0 w n
+p 155.0 100.0 p0 1 n {Storage is Ready} w
+t 1690.0 70.0 t37 0 w n
+t 1040.0 30.0 t38 0 w n
+t 1075.0 90.0 t39 0 w n
 e p59 t31 1 n
 e t30 p63 1 n
 e p59 t29 1 n
@@ -232,6 +236,14 @@ e t7 p21 1 n
 e t8 p22 1 n
 e t0 p18 1 n
 e t8 0.04805701997 63.89053138 p29 0.9869836123 61.20457497 1 n
+e p55 t36 1 n
+e t36 p0 1 n
+e p34 t37 1 n
+e t37 p1 1 n
+e p12 t38 1 n
+e t38 p54 1 n
+e p13 t39 1 n
+e t39 p33 1 n
 h robotArm
 
 
